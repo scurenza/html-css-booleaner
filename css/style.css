@@ -60,3 +60,33 @@ ul{
     font-size: 20px;
     padding-left: 20px;
 }
+
+/* tabella */
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+thead{
+    background-color: #20a9e5;
+    color: white;
+}
+
+tbody tr{
+    height: 60px;
+}
+
+th{
+    text-align: left;
+}
+
+td{
+    width: 50px;
+}
+.dispari{
+    background-color: #b1e5f2;
+}
+
