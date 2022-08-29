@@ -90,3 +90,38 @@ td{
     background-color: #b1e5f2;
 }
 
+/* FOOTER */
+footer p{
+    font-size: 20px;
+    font-weight: 600;
+    color: grey;
+}
+
+.container-pic{
+    border: 1px;
+}
+.pic1{
+    background-image: url(../img/monitor.jpg);
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px 10px;
+
+}
+
+.pic2{
+    background-image: url(../img/graph.jpg);
+    width: 250px;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px 10px;
+    margin-top: -60px;
+}
