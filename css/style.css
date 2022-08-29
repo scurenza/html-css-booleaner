@@ -5,14 +5,58 @@
 }
 
 /* HEADER */
+/* sfondo header */
 header{
     height: 100px;
     background-color: #4ea0ff;
     background-image: url(../img/pattern.png);
     background-size: contain;
 }
-
+/* logo header */
 header img{
     width: 200px;
     padding-top: 40px;
+    padding-left: 20px;
+}
+
+/* MAIN  */
+.container {
+    width: 98%;
+    margin: auto;
+}
+
+main h1{
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+#bluespan {
+    color: #4ea0ff;
+}
+
+.firma {
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+}
+
+.data{
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.paragrafo{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.highlight{
+    background-color: yellow;
+}
+
+ul{
+    font-size: 20px;
+    padding-left: 20px;
 }
